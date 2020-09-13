@@ -1,0 +1,67 @@
+{
+	"type": "ProgramNode",
+	"body": [
+		{
+			"type": "ComponentNode",
+			"name": "DatePickerField",
+			"types": [
+				{
+					"type": "PropTypeNode",
+					"name": "date",
+					"propType": {
+						"type": "UnionNode",
+						"types": [
+							{
+								"type": "UndefinedNode"
+							},
+							{
+								"type": "InstanceOfNode",
+								"instance": "Date"
+							},
+							{
+								"type": "InterfaceNode",
+								"types": [
+									{
+										"type": "PropTypeNode",
+										"name": "from",
+										"propType": {
+											"type": "UnionNode",
+											"types": [
+												{
+													"type": "UndefinedNode"
+												},
+												{
+													"type": "InstanceOfNode",
+													"instance": "Date"
+												}
+											]
+										},
+										"filenames": {}
+									},
+									{
+										"type": "PropTypeNode",
+										"name": "to",
+										"propType": {
+											"type": "UnionNode",
+											"types": [
+												{
+													"type": "UndefinedNode"
+												},
+												{
+													"type": "InstanceOfNode",
+													"instance": "Date"
+												}
+											]
+										},
+										"filenames": {}
+									}
+								]
+							}
+						]
+					},
+					"filenames": {}
+				}
+			]
+		}
+	]
+}
